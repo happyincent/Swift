@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F7D26B22030D62200FCB55B /* libRSTCAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7D26B32030D62200FCB55B /* libRSTCAPI.a */; };
+		4F7E2D382032B10A00A04794 /* xAPISender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7E2D372032B10A00A04794 /* xAPISender.swift */; };
+		4F854D9B2031891D0042FF21 /* Login-FB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F854D9A2031891D0042FF21 /* Login-FB.swift */; };
+		4FA3A8302030CB4000A9C585 /* MediaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3A8242030CB3D00A9C585 /* MediaManager.swift */; };
+		4FA3A8312030CB4000A9C585 /* CourseGradeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3A8252030CB3D00A9C585 /* CourseGradeTable.swift */; };
+		4FA3A8322030CB4000A9C585 /* MediaTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3A8262030CB3D00A9C585 /* MediaTable.swift */; };
+		4FA3A8332030CB4000A9C585 /* PlayerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3A8272030CB3E00A9C585 /* PlayerMain.swift */; };
+		4FA3A8342030CB4000A9C585 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3A8282030CB3E00A9C585 /* Login.swift */; };
+		4FA3A8352030CB4000A9C585 /* CourseBaseTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3A8292030CB3E00A9C585 /* CourseBaseTable.swift */; };
+		4FA3A8362030CB4000A9C585 /* BaseBookmarkTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3A82A2030CB3E00A9C585 /* BaseBookmarkTable.swift */; };
+		4FA3A8372030CB4000A9C585 /* BaseRecordTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3A82B2030CB3F00A9C585 /* BaseRecordTable.swift */; };
+		4FA3A8382030CB4000A9C585 /* CourseTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3A82C2030CB3F00A9C585 /* CourseTabBar.swift */; };
+		4FA3A8392030CB4000A9C585 /* BaseSubjectTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3A82D2030CB3F00A9C585 /* BaseSubjectTable.swift */; };
+		4FA3A83A2030CB4000A9C585 /* CourseTopicTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3A82E2030CB3F00A9C585 /* CourseTopicTable.swift */; };
+		4FA3A83B2030CB4000A9C585 /* BaseTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3A82F2030CB3F00A9C585 /* BaseTabBar.swift */; };
+		4FA3A8482030CB9500A9C585 /* DrGo_ES_Sociology_Topic.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FA3A83D2030CB9400A9C585 /* DrGo_ES_Sociology_Topic.json */; };
+		4FA3A8492030CB9500A9C585 /* DrGo_ES_Math.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FA3A83E2030CB9400A9C585 /* DrGo_ES_Math.json */; };
+		4FA3A84A2030CB9500A9C585 /* DrGo_ES_Sociology.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FA3A83F2030CB9400A9C585 /* DrGo_ES_Sociology.json */; };
+		4FA3A84B2030CB9500A9C585 /* DrGo_ES_Math_Topic.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FA3A8402030CB9400A9C585 /* DrGo_ES_Math_Topic.json */; };
+		4FA3A84C2030CB9500A9C585 /* DrGo_ES_English.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FA3A8412030CB9400A9C585 /* DrGo_ES_English.json */; };
+		4FA3A84D2030CB9500A9C585 /* DrGo_ES_Chinese.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FA3A8422030CB9400A9C585 /* DrGo_ES_Chinese.json */; };
+		4FA3A84E2030CB9500A9C585 /* DrGo_ES_Chinese_Topic.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FA3A8432030CB9400A9C585 /* DrGo_ES_Chinese_Topic.json */; };
+		4FA3A84F2030CB9500A9C585 /* DrGo_ES_English_Topic.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FA3A8442030CB9400A9C585 /* DrGo_ES_English_Topic.json */; };
+		4FA3A8502030CB9500A9C585 /* PlayerMainTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3A8452030CB9400A9C585 /* PlayerMainTable.swift */; };
+		4FA3A8512030CB9500A9C585 /* DrGo_ES_Science.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FA3A8462030CB9500A9C585 /* DrGo_ES_Science.json */; };
+		4FA3A8522030CB9500A9C585 /* DrGo_ES_Science_Topic.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FA3A8472030CB9500A9C585 /* DrGo_ES_Science_Topic.json */; };
+		4FA3A8572030CCE700A9C585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA3A8552030CCE700A9C585 /* LaunchScreen.storyboard */; };
+		4FA3A8672030D23500A9C585 /* EZPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA3A8652030D19800A9C585 /* EZPlayer.framework */; };
+		4FA3A8692030D24B00A9C585 /* EZPlayer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4FA3A8652030D19800A9C585 /* EZPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4FA9AD322030C8ED00A6C3A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA9AD312030C8ED00A6C3A8 /* AppDelegate.swift */; };
+		4FA9AD392030C8EE00A6C3A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA9AD382030C8EE00A6C3A8 /* Assets.xcassets */; };
+		D0ACD96066FA596D8575A13E /* Pods_Dr_Go_Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69311770EBD0F44976FAF07 /* Pods_Dr_Go_Player.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4FA3A8682030D23E00A9C585 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4FA3A8692030D24B00A9C585 /* EZPlayer.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F93C8EA7F6838C97DD7B7FF /* Pods-Dr.Go Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dr.Go Player.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dr.Go Player/Pods-Dr.Go Player.release.xcconfig"; sourceTree = "<group>"; };
+		4F7D26B32030D62200FCB55B /* libRSTCAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRSTCAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7D26BC2030D75A00FCB55B /* Dr.Go Player-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dr.Go Player-Bridging-Header.h"; sourceTree = "<group>"; };
+		4F7E2D372032B10A00A04794 /* xAPISender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xAPISender.swift; sourceTree = "<group>"; };
+		4F854D9A2031891D0042FF21 /* Login-FB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login-FB.swift"; sourceTree = "<group>"; };
+		4FA3A8242030CB3D00A9C585 /* MediaManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaManager.swift; sourceTree = "<group>"; };
+		4FA3A8252030CB3D00A9C585 /* CourseGradeTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseGradeTable.swift; sourceTree = "<group>"; };
+		4FA3A8262030CB3D00A9C585 /* MediaTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaTable.swift; sourceTree = "<group>"; };
+		4FA3A8272030CB3E00A9C585 /* PlayerMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerMain.swift; sourceTree = "<group>"; };
+		4FA3A8282030CB3E00A9C585 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		4FA3A8292030CB3E00A9C585 /* CourseBaseTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseBaseTable.swift; sourceTree = "<group>"; };
+		4FA3A82A2030CB3E00A9C585 /* BaseBookmarkTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseBookmarkTable.swift; sourceTree = "<group>"; };
+		4FA3A82B2030CB3F00A9C585 /* BaseRecordTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRecordTable.swift; sourceTree = "<group>"; };
+		4FA3A82C2030CB3F00A9C585 /* CourseTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseTabBar.swift; sourceTree = "<group>"; };
+		4FA3A82D2030CB3F00A9C585 /* BaseSubjectTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseSubjectTable.swift; sourceTree = "<group>"; };
+		4FA3A82E2030CB3F00A9C585 /* CourseTopicTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseTopicTable.swift; sourceTree = "<group>"; };
+		4FA3A82F2030CB3F00A9C585 /* BaseTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBar.swift; sourceTree = "<group>"; };
+		4FA3A83D2030CB9400A9C585 /* DrGo_ES_Sociology_Topic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DrGo_ES_Sociology_Topic.json; sourceTree = "<group>"; };
+		4FA3A83E2030CB9400A9C585 /* DrGo_ES_Math.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DrGo_ES_Math.json; sourceTree = "<group>"; };
+		4FA3A83F2030CB9400A9C585 /* DrGo_ES_Sociology.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DrGo_ES_Sociology.json; sourceTree = "<group>"; };
+		4FA3A8402030CB9400A9C585 /* DrGo_ES_Math_Topic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DrGo_ES_Math_Topic.json; sourceTree = "<group>"; };
+		4FA3A8412030CB9400A9C585 /* DrGo_ES_English.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DrGo_ES_English.json; sourceTree = "<group>"; };
+		4FA3A8422030CB9400A9C585 /* DrGo_ES_Chinese.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DrGo_ES_Chinese.json; sourceTree = "<group>"; };
+		4FA3A8432030CB9400A9C585 /* DrGo_ES_Chinese_Topic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DrGo_ES_Chinese_Topic.json; sourceTree = "<group>"; };
+		4FA3A8442030CB9400A9C585 /* DrGo_ES_English_Topic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DrGo_ES_English_Topic.json; sourceTree = "<group>"; };
+		4FA3A8452030CB9400A9C585 /* PlayerMainTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerMainTable.swift; sourceTree = "<group>"; };
+		4FA3A8462030CB9500A9C585 /* DrGo_ES_Science.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DrGo_ES_Science.json; sourceTree = "<group>"; };
+		4FA3A8472030CB9500A9C585 /* DrGo_ES_Science_Topic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DrGo_ES_Science_Topic.json; sourceTree = "<group>"; };
+		4FA3A8562030CCE700A9C585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FA3A8652030D19800A9C585 /* EZPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EZPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA9AD2E2030C8ED00A6C3A8 /* Dr.Go Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dr.Go Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA9AD312030C8ED00A6C3A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FA9AD382030C8EE00A6C3A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FA9AD3D2030C8EE00A6C3A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70BA4970AB2487D013103B8B /* Pods-Dr.Go Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dr.Go Player.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dr.Go Player/Pods-Dr.Go Player.debug.xcconfig"; sourceTree = "<group>"; };
+		C69311770EBD0F44976FAF07 /* Pods_Dr_Go_Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dr_Go_Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FA9AD2B2030C8ED00A6C3A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7D26B22030D62200FCB55B /* libRSTCAPI.a in Frameworks */,
+				4FA3A8672030D23500A9C585 /* EZPlayer.framework in Frameworks */,
+				D0ACD96066FA596D8575A13E /* Pods_Dr_Go_Player.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47BEBA99C3761EBB80A3D902 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F7D26B32030D62200FCB55B /* libRSTCAPI.a */,
+				4FA3A8652030D19800A9C585 /* EZPlayer.framework */,
+				C69311770EBD0F44976FAF07 /* Pods_Dr_Go_Player.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F7E2B5C20328F6100A04794 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4FA3A8282030CB3E00A9C585 /* Login.swift */,
+				4F854D9A2031891D0042FF21 /* Login-FB.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		4F7E2B5D20328F6C00A04794 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4FA3A82F2030CB3F00A9C585 /* BaseTabBar.swift */,
+				4FA3A82D2030CB3F00A9C585 /* BaseSubjectTable.swift */,
+				4FA3A82A2030CB3E00A9C585 /* BaseBookmarkTable.swift */,
+				4FA3A82B2030CB3F00A9C585 /* BaseRecordTable.swift */,
+				4FA3A82C2030CB3F00A9C585 /* CourseTabBar.swift */,
+				4FA3A8292030CB3E00A9C585 /* CourseBaseTable.swift */,
+				4FA3A8252030CB3D00A9C585 /* CourseGradeTable.swift */,
+				4FA3A82E2030CB3F00A9C585 /* CourseTopicTable.swift */,
+				4FA3A8262030CB3D00A9C585 /* MediaTable.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		4F7E2B5E20328F8500A04794 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				4FA3A8242030CB3D00A9C585 /* MediaManager.swift */,
+				4FA3A8272030CB3E00A9C585 /* PlayerMain.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		4FA3A83C2030CB7500A9C585 /* Dr.GoURL */ = {
+			isa = PBXGroup;
+			children = (
+				4FA3A8432030CB9400A9C585 /* DrGo_ES_Chinese_Topic.json */,
+				4FA3A8422030CB9400A9C585 /* DrGo_ES_Chinese.json */,
+				4FA3A8442030CB9400A9C585 /* DrGo_ES_English_Topic.json */,
+				4FA3A8412030CB9400A9C585 /* DrGo_ES_English.json */,
+				4FA3A8402030CB9400A9C585 /* DrGo_ES_Math_Topic.json */,
+				4FA3A83E2030CB9400A9C585 /* DrGo_ES_Math.json */,
+				4FA3A8472030CB9500A9C585 /* DrGo_ES_Science_Topic.json */,
+				4FA3A8462030CB9500A9C585 /* DrGo_ES_Science.json */,
+				4FA3A83D2030CB9400A9C585 /* DrGo_ES_Sociology_Topic.json */,
+				4FA3A83F2030CB9400A9C585 /* DrGo_ES_Sociology.json */,
+				4FA3A8452030CB9400A9C585 /* PlayerMainTable.swift */,
+			);
+			path = Dr.GoURL;
+			sourceTree = "<group>";
+		};
+		4FA9AD252030C8ED00A6C3A8 = {
+			isa = PBXGroup;
+			children = (
+				4F7E2D372032B10A00A04794 /* xAPISender.swift */,
+				4FA9AD302030C8ED00A6C3A8 /* Dr.Go Player */,
+				4FA9AD2F2030C8ED00A6C3A8 /* Products */,
+				78F1E7F1CA3F95A63DB908AE /* Pods */,
+				47BEBA99C3761EBB80A3D902 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4FA9AD2F2030C8ED00A6C3A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FA9AD2E2030C8ED00A6C3A8 /* Dr.Go Player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FA9AD302030C8ED00A6C3A8 /* Dr.Go Player */ = {
+			isa = PBXGroup;
+			children = (
+				4FA9AD312030C8ED00A6C3A8 /* AppDelegate.swift */,
+				4F7E2B5C20328F6100A04794 /* Login */,
+				4F7E2B5D20328F6C00A04794 /* UI */,
+				4F7E2B5E20328F8500A04794 /* Player */,
+				4FA3A83C2030CB7500A9C585 /* Dr.GoURL */,
+				4FA9AD382030C8EE00A6C3A8 /* Assets.xcassets */,
+				4FA3A8552030CCE700A9C585 /* LaunchScreen.storyboard */,
+				4FA9AD3D2030C8EE00A6C3A8 /* Info.plist */,
+				4F7D26BC2030D75A00FCB55B /* Dr.Go Player-Bridging-Header.h */,
+			);
+			path = "Dr.Go Player";
+			sourceTree = "<group>";
+		};
+		78F1E7F1CA3F95A63DB908AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70BA4970AB2487D013103B8B /* Pods-Dr.Go Player.debug.xcconfig */,
+				1F93C8EA7F6838C97DD7B7FF /* Pods-Dr.Go Player.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FA9AD2D2030C8ED00A6C3A8 /* Dr.Go Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA9AD402030C8EE00A6C3A8 /* Build configuration list for PBXNativeTarget "Dr.Go Player" */;
+			buildPhases = (
+				F76E5279EA45120E4BF57559 /* [CP] Check Pods Manifest.lock */,
+				4FA9AD2A2030C8ED00A6C3A8 /* Sources */,
+				4FA9AD2B2030C8ED00A6C3A8 /* Frameworks */,
+				4FA9AD2C2030C8ED00A6C3A8 /* Resources */,
+				9B802E4136D93397C21955BC /* [CP] Embed Pods Frameworks */,
+				A8D10C03CEAC6BA2A3758800 /* [CP] Copy Pods Resources */,
+				4FA3A8682030D23E00A9C585 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dr.Go Player";
+			productName = "Dr.Go Player";
+			productReference = 4FA9AD2E2030C8ED00A6C3A8 /* Dr.Go Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FA9AD262030C8ED00A6C3A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ddl;
+				TargetAttributes = {
+					4FA9AD2D2030C8ED00A6C3A8 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4FA9AD292030C8ED00A6C3A8 /* Build configuration list for PBXProject "Dr.Go Player" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FA9AD252030C8ED00A6C3A8;
+			productRefGroup = 4FA9AD2F2030C8ED00A6C3A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FA9AD2D2030C8ED00A6C3A8 /* Dr.Go Player */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FA9AD2C2030C8ED00A6C3A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA3A84A2030CB9500A9C585 /* DrGo_ES_Sociology.json in Resources */,
+				4FA3A84E2030CB9500A9C585 /* DrGo_ES_Chinese_Topic.json in Resources */,
+				4FA3A84D2030CB9500A9C585 /* DrGo_ES_Chinese.json in Resources */,
+				4FA3A84F2030CB9500A9C585 /* DrGo_ES_English_Topic.json in Resources */,
+				4FA3A8512030CB9500A9C585 /* DrGo_ES_Science.json in Resources */,
+				4FA3A8492030CB9500A9C585 /* DrGo_ES_Math.json in Resources */,
+				4FA3A84B2030CB9500A9C585 /* DrGo_ES_Math_Topic.json in Resources */,
+				4FA3A8482030CB9500A9C585 /* DrGo_ES_Sociology_Topic.json in Resources */,
+				4FA3A84C2030CB9500A9C585 /* DrGo_ES_English.json in Resources */,
+				4FA3A8572030CCE700A9C585 /* LaunchScreen.storyboard in Resources */,
+				4FA9AD392030C8EE00A6C3A8 /* Assets.xcassets in Resources */,
+				4FA3A8522030CB9500A9C585 /* DrGo_ES_Science_Topic.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B802E4136D93397C21955BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Dr.Go Player/Pods-Dr.Go Player-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dr.Go Player/Pods-Dr.Go Player-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8D10C03CEAC6BA2A3758800 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dr.Go Player/Pods-Dr.Go Player-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F76E5279EA45120E4BF57559 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dr.Go Player-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FA9AD2A2030C8ED00A6C3A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7E2D382032B10A00A04794 /* xAPISender.swift in Sources */,
+				4FA3A8352030CB4000A9C585 /* CourseBaseTable.swift in Sources */,
+				4FA3A83B2030CB4000A9C585 /* BaseTabBar.swift in Sources */,
+				4FA3A8302030CB4000A9C585 /* MediaManager.swift in Sources */,
+				4FA3A8372030CB4000A9C585 /* BaseRecordTable.swift in Sources */,
+				4FA3A8332030CB4000A9C585 /* PlayerMain.swift in Sources */,
+				4FA3A8392030CB4000A9C585 /* BaseSubjectTable.swift in Sources */,
+				4FA3A8502030CB9500A9C585 /* PlayerMainTable.swift in Sources */,
+				4FA3A8362030CB4000A9C585 /* BaseBookmarkTable.swift in Sources */,
+				4FA9AD322030C8ED00A6C3A8 /* AppDelegate.swift in Sources */,
+				4FA3A8382030CB4000A9C585 /* CourseTabBar.swift in Sources */,
+				4FA3A8342030CB4000A9C585 /* Login.swift in Sources */,
+				4FA3A83A2030CB4000A9C585 /* CourseTopicTable.swift in Sources */,
+				4FA3A8312030CB4000A9C585 /* CourseGradeTable.swift in Sources */,
+				4FA3A8322030CB4000A9C585 /* MediaTable.swift in Sources */,
+				4F854D9B2031891D0042FF21 /* Login-FB.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4FA3A8552030CCE700A9C585 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FA3A8562030CCE700A9C585 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FA9AD3E2030C8EE00A6C3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FA9AD3F2030C8EE00A6C3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FA9AD412030C8EE00A6C3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70BA4970AB2487D013103B8B /* Pods-Dr.Go Player.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EYYA39P7W3;
+				INFOPLIST_FILE = "Dr.Go Player/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "itlab.ddl.Dr-Go-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dr.Go Player/Dr.Go Player-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FA9AD422030C8EE00A6C3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F93C8EA7F6838C97DD7B7FF /* Pods-Dr.Go Player.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EYYA39P7W3;
+				INFOPLIST_FILE = "Dr.Go Player/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "itlab.ddl.Dr-Go-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dr.Go Player/Dr.Go Player-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FA9AD292030C8ED00A6C3A8 /* Build configuration list for PBXProject "Dr.Go Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA9AD3E2030C8EE00A6C3A8 /* Debug */,
+				4FA9AD3F2030C8EE00A6C3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FA9AD402030C8EE00A6C3A8 /* Build configuration list for PBXNativeTarget "Dr.Go Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA9AD412030C8EE00A6C3A8 /* Debug */,
+				4FA9AD422030C8EE00A6C3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FA9AD262030C8ED00A6C3A8 /* Project object */;
+}

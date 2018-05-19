@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Dr.Go Player.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:EZPlayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:RSTCAPI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:EZPlayer/../Toast.swift">
+   </FileRef>
+   <FileRef
+      location = "group:xAPISender.swift">
+   </FileRef>
+</Workspace>
